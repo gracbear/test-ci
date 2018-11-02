@@ -1,5 +1,12 @@
+language: cpp
+
+install:
+  - pip install --user -q conan
+  - conan user
+
 script:
   - mkdir build && cd build
+  - conan install .. --build
   - cmake ..
   - cmake --build .
-  - ./hello
+  - ./bin/test_hello

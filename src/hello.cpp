@@ -1,5 +1,8 @@
-#include <iostream>
+#include "hello/hello.h"
 
-int main (){
-	std::cout << "Hello world" << std::endl;
+namespace Hello {
+	std::ostream& greetings(std::ostream& stream){
+		return stream << "Hello, corehard";
+	}
 }
+
