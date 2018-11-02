@@ -1,1 +1,1 @@
-https://travis-ci.org/gracbear/test-ci.svg?branch=masterhttps://travis-ci.org/gracbear/test-ci.svg?branch=master
+[![Build Status](https://travis-ci.org/gracbear/test-ci.svg?branch=master)](https://travis-ci.org/gracbear/test-ci)
