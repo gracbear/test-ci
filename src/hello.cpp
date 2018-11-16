@@ -4,6 +4,5 @@ namespace Hello {
 	std::ostream& greetings(std::ostream& stream){
 		return stream << "Hello, corehard";
 	}
-	const auto a = 10;
 }
 
